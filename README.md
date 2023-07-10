@@ -1,4 +1,4 @@
-# vimeo
+# pinterest
 
 Required Dev Tools: 
 	Node 16.20

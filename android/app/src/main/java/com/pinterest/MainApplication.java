@@ -1,4 +1,4 @@
-package com.vimeo;
+package com.pinterest;
 
 import android.app.Application;
 import com.facebook.react.PackageList;

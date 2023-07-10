@@ -73,9 +73,9 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.vimeo"
+    namespace "com.pinterest"
     defaultConfig {
-        applicationId "com.vimeo"
+        applicationId "com.pinterest"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

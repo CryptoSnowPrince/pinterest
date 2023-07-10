@@ -7,11 +7,11 @@
 #define TIMEOUT_SECONDS 600
 #define TEXT_TO_LOOK_FOR @"Welcome to React"
 
-@interface VimeoTests : XCTestCase
+@interface PinterestTests : XCTestCase
 
 @end
 
-@implementation VimeoTests
+@implementation PinterestTests
 
 - (BOOL)findSubviewInView:(UIView *)view matching:(BOOL (^)(UIView *view))test
 {

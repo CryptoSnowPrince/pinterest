@@ -72,7 +72,7 @@ export const Download = () => {
         setProgressValue(0);
         setIsDownloading(true);
         const { dirs } = RNFetchBlob.fs;
-        const fileName = videoInfo ? encodeURIComponent(videoInfo.title) : 'vimeoMovie';
+        const fileName = videoInfo ? encodeURIComponent(videoInfo.title) : 'pinterestMovie';
         const folderPath = await AsyncStorage.getItem(DOWNLOAD_SUB_URL);
         const path = `${folderPath ? (RNFS.ExternalStorageDirectoryPath + '/' + folderPath) : dirs.DownloadDir}/${fileName}`;
         try {
