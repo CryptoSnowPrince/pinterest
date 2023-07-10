@@ -7,6 +7,7 @@ export default {
     white: '#FFFFFF',
     mercury: '#ECEFF5',
     sky: '#26B9F1',
+    red: '#E60023',
     lightWhite: 'rgba(255, 255, 255, 0.40)',
     lightBlack: '#1E232C',
     lightGray: '#E8ECF4',

@@ -172,7 +172,7 @@ export const Download = () => {
                         style={styles.logoImage}
                     />
                     <Text style={styles.headerText}>
-                        {'Vimdown'}
+                        {'Pindown'}
                     </Text>
                 </View>
                 <View style={styles.rowCenter}>
@@ -200,11 +200,11 @@ export const Download = () => {
             <ScrollView>
                 <View style={styles.body}>
                     <Text style={styles.bodyText}>
-                        {'Vimdown'}
+                        {'Pindown'}
                     </Text>
                     <View style={styles.rowCenter}>
-                        <Text style={[styles.bodyText, { color: Colors.sky }]}>
-                            {'Vimeo'}
+                        <Text style={[styles.bodyText, { color: Colors.red }]}>
+                            {'Pinterest'}
                         </Text>
                         <Text style={styles.bodyText}>
                             {' Downloader'}
@@ -296,7 +296,7 @@ export const Download = () => {
                             borderWidth={0}
                             animated={false}
                             useNativeDriver={true}
-                            color={Colors.sky}
+                            color={Colors.red}
                             unfilledColor={Colors.mercury}
                         />
                     </View>
@@ -334,7 +334,7 @@ export const Download = () => {
                             borderWidth={0}
                             animated={false}
                             useNativeDriver={true}
-                            color={Colors.sky}
+                            color={Colors.red}
                             unfilledColor={Colors.mercury}
                         />
                     </View>

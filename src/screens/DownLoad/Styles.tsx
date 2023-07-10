@@ -90,7 +90,7 @@ const styles = StyleSheet.create({
     pastText: {
         fontSize: moderateScale(14),
         fontFamily: 'Urbanist-SemiBold',
-        color: Colors.sky,
+        color: Colors.white,
         lineHeight: verticalScale(20),
     },
     dropDownContainer: {
@@ -122,14 +122,14 @@ const styles = StyleSheet.create({
         paddingLeft: 10
     },
     selectedDropDownItem: {
-        backgroundColor: Colors.sky,
+        backgroundColor: Colors.red,
         borderRadius: 15
     },
     downloadButton: {
         width: horizontalScale(287),
         height: verticalScale(54),
         borderRadius: 15,
-        backgroundColor: Colors.sky,
+        backgroundColor: Colors.red,
         marginTop: verticalScale(12),
         justifyContent: 'center',
         alignItems: 'center'
